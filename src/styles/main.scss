@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.app{
+  background: #222034b5;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 5px;
+} 
+h1, h2{
+  text-align: center;
+}
+.content{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.range{
+  background: #484661b5;
+  margin-bottom: 20px;
+}
+.img img{
+  padding: 20px;
+  object-fit: contain;
+  max-width: 100%;
+}
+.filterList{
+  display: flex;
+}
+.filterone{
+  max-width: 250px;
+}
